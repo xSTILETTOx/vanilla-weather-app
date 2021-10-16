@@ -11,6 +11,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
@@ -28,7 +30,7 @@
                 />
 
                 <span class="degree"
-                  ><strong>17</strong>
+                  ><strong id="temperature"></strong>
                   <small class="units"> °C | °<a href="#">F</a></small>
                 </span>
               </div>
@@ -36,16 +38,15 @@
 
             <div class="col-md-4">
               <ul>
-                <li>Precipitation: 20%</li>
-                <li>Humidity: 73%</li>
-                <li>Wind: 19km/h</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> km/h</li>
               </ul>
             </div>
             <div class="col-md-4">
-              <h1>Truganina</h1>
+              <h1 id="city"></h1>
               <ul>
                 <li>Wednesday 7:00 pm</li>
-                <li>Mostly cloudy</li>
+                <li id="description"></li>
               </ul>
             </div>
           </div>
