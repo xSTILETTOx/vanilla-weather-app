@@ -48,7 +48,7 @@ small {
 .degree .units {
   position: relative;
   font-size: 16px;
-  top: -10px;
+  top: 10px;
 }
 
 .degree a {
@@ -57,4 +57,12 @@ small {
 
 .code {
   text-decoration: none;
+}
+
+#icon {
+  display: inline-block;
+  height: 60px;
+  margin-top: unset;
+  vertical-align: top;
+  width: 60px;
 }
