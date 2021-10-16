@@ -1,0 +1,30 @@
+body {
+  font-family: Google Sans, arial, sans-serif !important;
+}
+
+.whole-app {
+  max-width: 652px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+h1 {
+  color: #2e5271;
+  font-size: 30px;
+  line-height: 26px;
+  margin-bottom: 5px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  color: #70757a;
+  font-size: 16px;
+  list-style: none;
+  line-height: 16px;
+}
+small {
+  font-size: 10px;
+}
