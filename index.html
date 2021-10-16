@@ -16,32 +16,43 @@
   </head>
   <body>
     <div class="container">
-      <div class="whole-app">
-        <div class="row">
-          <div class="col-md-3">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt="Cloudy"
-            />
-            17°C | F
-          </div>
-          <div class="col-md-5">
-            <ul>
-              <li>Precipitation: 20%</li>
-              <li>Humidity: 73%</li>
-              <li>Wind: 19km/h</li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <h1>Truganina</h1>
-            <ul>
-              <li>Wednesday 7:00 pm</li>
-              <li>Mostly cloudy</li>
-            </ul>
+      <div class="whole-app-wrap">
+        <div class="whole-app">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="clearfix weather-icon">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Cloudy"
+                  class="float-left"
+                />
+
+                <span class="degree"
+                  ><strong>17</strong>
+                  <small class="units"> °C | °<a href="#">F</a></small>
+                </span>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <ul>
+                <li>Precipitation: 20%</li>
+                <li>Humidity: 73%</li>
+                <li>Wind: 19km/h</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h1>Truganina</h1>
+              <ul>
+                <li>Wednesday 7:00 pm</li>
+                <li>Mostly cloudy</li>
+              </ul>
+            </div>
           </div>
         </div>
         <small
           ><a
+            class="code"
             href="https://github.com/xSTILETTOx/vanilla-weather-app"
             target="_blank"
             >Open-source code</a

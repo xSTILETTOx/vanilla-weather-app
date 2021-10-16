@@ -2,13 +2,6 @@ body {
   font-family: Google Sans, arial, sans-serif !important;
 }
 
-.whole-app {
-  max-width: 652px;
-  margin: 30px auto;
-  padding: 30px;
-  border: 1px solid #ebebeb;
-  border-radius: 10px;
-}
 h1 {
   color: #2e5271;
   font-size: 30px;
@@ -20,11 +13,44 @@ ul {
   padding: 0;
 }
 li {
+  margin-top: 5px;
   color: #70757a;
-  font-size: 16px;
+  font-size: 14px;
   list-style: none;
-  line-height: 16px;
+  line-height: 1;
 }
 small {
-  font-size: 10px;
+  font-size: 12px;
+}
+
+.whole-app-wrap {
+  max-width: 652px;
+  margin: 30px auto;
+}
+
+.whole-app {
+  padding: 30px;
+  border: 1px solid #ebebeb;
+  border-radius: 10px;
+}
+.degree strong {
+  color: #202124;
+  display: inline-block;
+  font-size: 48px;
+  line-height: 64px;
+  vertical-align: top;
+}
+
+.degree .units {
+  position: relative;
+  font-size: 16px;
+  top: -10px;
+}
+
+.degree a {
+  text-decoration: none;
+}
+
+.code {
+  text-decoration: none;
 }
