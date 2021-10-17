@@ -53,10 +53,20 @@ small {
 
 .degree a {
   text-decoration: none;
+  font-weight: bolder;
 }
 
 .code {
   text-decoration: none;
+}
+
+.weather-icon .active {
+  color: #202124;
+}
+
+.weather-icon .active:hover {
+  text-decoration: none;
+  cursor: default;
 }
 
 #icon {
